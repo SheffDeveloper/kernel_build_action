@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
+          kernel-url: https://github.com/SheffDeveloper/android_kernel_samsung_a3core
           kernel-branch: main
           config: a3core_eur_open_defconfig
           arch: arm64
