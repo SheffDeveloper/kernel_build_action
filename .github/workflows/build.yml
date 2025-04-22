@@ -16,7 +16,6 @@ jobs:
       uses: dabao1955/kernel_build_action@main
       with:
           kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: a3core
           kernel-branch: main
           config: a3core_eur_open_defconfig
           arch: arm64
